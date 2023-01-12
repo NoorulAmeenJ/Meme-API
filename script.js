@@ -18,7 +18,7 @@ carouselinner.innerHTML +=
   <div class="carousel-item ">
     <img src="${data.data.memes[i].url}" class="d-block w-100" alt="${data.data.memes[i].name}'meme">
     <div class="carousel-caption d-none d-md-block">
-      <h5>${data.data.memes[i].name}</h5>
+      <h1 class="innerline">${data.data.memes[i].name}</h1>
     </div>
   </div>
   `
